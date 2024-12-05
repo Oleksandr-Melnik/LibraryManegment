@@ -18,8 +18,9 @@ namespace LibraryManegmentTest
             Title = title;
             Author = author;
             ISBN = isbn;
-            CopiesAvailable = 0; // ПОМИЛКА: завжди 0 копій
+            CopiesAvailable = copiesAvailable; // Виправлено: кількість копій задається правильно
         }
+
     }
 
 }
