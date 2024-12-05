@@ -35,6 +35,20 @@ namespace LibraryManegmentTest
             Assert.Throws<InvalidOperationException>(() => library.AddBook(book2));
         }
 
+        [Fact]
+        public void RemoveBook_ShouldRemoveBookFromLibrary()
+        {
+            // Arrange
+            var library = new Library();
+            var book = new Book("1984", "George Orwell", "123456789", 5);
+            library.AddBook(book);
+
+            // Act
+            library.RemoveBook("123456789");
+
+            // Assert
+            Assert.DoesNotContain(book, library.GetAllBooks());
+        }
     }
 
 }

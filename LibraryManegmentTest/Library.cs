@@ -10,6 +10,11 @@ namespace LibraryManegmentTest
     {
         private List<Book> books = new List<Book>();
 
+        public void RemoveBook(string isbn)
+        {
+            // ПОМИЛКА: Метод нічого не робить
+        }
+
         public void AddBook(Book book)
         {
             if (books.Any(b => b.ISBN == book.ISBN))
