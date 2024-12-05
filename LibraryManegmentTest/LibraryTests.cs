@@ -6,7 +6,21 @@ using System.Threading.Tasks;
 
 namespace LibraryManegmentTest
 {
-    internal class LibraryTests
+    public class LibraryTests
     {
+        [Fact]
+        public void AddBook_ShouldAddBookToLibrary()
+        {
+            // Arrange
+            var library = new Library();
+            var book = new Book("1984", "George Orwell", "123456789", 5);
+
+            // Act
+            library.AddBook(book);
+
+            // Assert
+            Assert.Contains(book, library.GetAllBooks());
+        }
     }
+
 }
