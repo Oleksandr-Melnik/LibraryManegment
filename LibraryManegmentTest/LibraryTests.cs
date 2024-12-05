@@ -21,6 +21,20 @@ namespace LibraryManegmentTest
             // Assert
             Assert.Contains(book, library.GetAllBooks());
         }
+
+        [Fact]
+        public void AddBook_ShouldThrowException_IfISBNNotUnique()
+        {
+            // Arrange
+            var library = new Library();
+            var book1 = new Book("1984", "George Orwell", "123456789", 5);
+            var book2 = new Book("Animal Farm", "George Orwell", "123456789", 3);
+            library.AddBook(book1);
+
+            // Act & Assert
+            Assert.Throws<InvalidOperationException>(() => library.AddBook(book2));
+        }
+
     }
 
 }
