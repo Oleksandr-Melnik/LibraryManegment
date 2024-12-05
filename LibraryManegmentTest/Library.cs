@@ -12,8 +12,12 @@ namespace LibraryManegmentTest
 
         public void RemoveBook(string isbn)
         {
-            // ПОМИЛКА: Метод нічого не робить
+            var book = books.FirstOrDefault(b => b.ISBN == isbn);
+            if (book == null)
+                throw new InvalidOperationException("Book not found.");
+            books.Remove(book);
         }
+
 
         public void AddBook(Book book)
         {
