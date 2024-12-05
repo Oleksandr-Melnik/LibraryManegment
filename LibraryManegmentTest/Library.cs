@@ -12,7 +12,9 @@ namespace LibraryManegmentTest
 
         public void AddBook(Book book)
         {
-            books.Add(book); // Виправлено: книга додається до списку
+            if (books.Any(b => b.ISBN == book.ISBN))
+                throw new InvalidOperationException("Book with the same ISBN already exists.");
+            books.Add(book);
         }
 
 
