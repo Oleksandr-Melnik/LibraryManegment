@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\vs\\laba_17_3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2964F45D-74D3-4473-A241-202CE244CB58}|LibrarySystem_17\\LibraryManagementSystem.csproj|D:\\vs\\laba_17_3\\librarysystem_17\\library.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2964F45D-74D3-4473-A241-202CE244CB58}|LibrarySystem_17\\LibraryManagementSystem.csproj|solutionrelative:librarysystem_17\\library.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AE7DD000-24E7-4091-988E-CBDCDA9C36BC}|LibrarySystem_17.Tests\\LibraryManagementSystem.Tests.csproj|d:\\vs\\laba_17_3\\librarysystem_17.tests\\librarytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AE7DD000-24E7-4091-988E-CBDCDA9C36BC}|LibrarySystem_17.Tests\\LibraryManagementSystem.Tests.csproj|solutionrelative:librarysystem_17.tests\\librarytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2964F45D-74D3-4473-A241-202CE244CB58}|LibrarySystem_17\\LibraryManagementSystem.csproj|D:\\vs\\laba_17_3\\librarysystem_17\\library.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2964F45D-74D3-4473-A241-202CE244CB58}|LibrarySystem_17\\LibraryManagementSystem.csproj|solutionrelative:librarysystem_17\\library.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AE7DD000-24E7-4091-988E-CBDCDA9C36BC}|LibrarySystem_17.Tests\\LibraryManagementSystem.Tests.csproj|d:\\vs\\laba_17_3\\librarysystem_17.tests\\librarymanagementsystem.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -38,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -59,26 +59,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "LibraryTests.cs",
               "DocumentMoniker": "D:\\vs\\laba_17_3\\LibrarySystem_17.Tests\\LibraryTests.cs",
               "RelativeDocumentMoniker": "LibrarySystem_17.Tests\\LibraryTests.cs",
               "ToolTip": "D:\\vs\\laba_17_3\\LibrarySystem_17.Tests\\LibraryTests.cs",
               "RelativeToolTip": "LibrarySystem_17.Tests\\LibraryTests.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAYwBYAAABGAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-29T16:01:08.194Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Library.cs",
               "DocumentMoniker": "D:\\vs\\laba_17_3\\LibrarySystem_17\\Library.cs",
               "RelativeDocumentMoniker": "LibrarySystem_17\\Library.cs",
               "ToolTip": "D:\\vs\\laba_17_3\\LibrarySystem_17\\Library.cs",
               "RelativeToolTip": "LibrarySystem_17\\Library.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEgAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFsAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-29T15:58:32.74Z",
               "EditorCaption": ""

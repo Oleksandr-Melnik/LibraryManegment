@@ -19,7 +19,8 @@ public class LibraryTests
         var result = library.BorrowBook(1, "123");
 
         // Assert
-        Assert.Equal("Book borrowed successfully.", result);
+        Assert.True(result); // перевірка, що метод повернув успішний результат
+
         Assert.Equal(4, library.GetBookByISBN("123").AvailableCopies);
         Assert.Contains("123", library.GetReaderById(1).BorrowedBooks);
     }
@@ -40,7 +41,7 @@ public class LibraryTests
         var result = library.ReturnBook(1, "123");
 
         // Assert
-        Assert.Equal("Book returned successfully.", result);
+        Assert.True(result); // перевірка, що метод повернув успішний результат
         Assert.Equal(5, library.GetBookByISBN("123").AvailableCopies);
         Assert.DoesNotContain("123", library.GetReaderById(1).BorrowedBooks);
         Assert.Empty(library.GetActiveLoans());

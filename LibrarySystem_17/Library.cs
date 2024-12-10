@@ -35,66 +35,43 @@ namespace LibraryManagementSystem
 
 
         // Метод видачі книги 
-   
-        public string BorrowBook(int readerId, string isbn)
+
+        public bool BorrowBook(int readerId, string isbn)
         {
-            // 1. Перевірка наявності книги
             var book = books.FirstOrDefault(b => b.ISBN == isbn);
-            if (book == null)
-                return "Book not found.";
+            if (book == null || book.AvailableCopies <= 0) return false;
 
-            // 2. Перевірка доступності книги
-            if (book.AvailableCopies <= 0)
-                return "Book is not available.";
-
-            // 3. Перевірка існування читача
             var reader = readers.FirstOrDefault(r => r.Id == readerId);
-            if (reader == null)
-                return "Reader not found.";
+            if (reader == null || reader.BorrowedBooks.Count >= 5) return false;
 
-            // 4. Обмеження на кількість позик
-            if (reader.BorrowedBooks.Count >= 5)
-                return "Reader has reached the borrowing limit.";
+            if (activeLoans.Any(l => l.ReaderId == readerId && l.ISBN == isbn)) return false;
 
-            // 5. Перевірка на унікальність позики
-            if (activeLoans.Any(l => l.ReaderId == readerId && l.ISBN == isbn))
-                return "Book is already borrowed by this reader.";
-
-            // Якщо всі перевірки пройдені, видаємо книгу
             book.AvailableCopies--;
             reader.BorrowedBooks.Add(isbn);
             activeLoans.Add(new Loan { ReaderId = readerId, ISBN = isbn, BorrowDate = DateTime.Now });
 
-            return "Book borrowed successfully.";
+            return true;
         }
 
 
 
         // Метод повернення книги 
-        public string ReturnBook(int readerId, string isbn)
+        public bool ReturnBook(int readerId, string isbn)
         {
-            // 1. Перевірка наявності активної позики
             var loan = activeLoans.FirstOrDefault(l => l.ReaderId == readerId && l.ISBN == isbn);
-            if (loan == null)
-                return "No active loan found for this book and reader.";
+            if (loan == null) return false;
 
-            // 2. Перевірка існування книги
             var book = books.FirstOrDefault(b => b.ISBN == isbn);
-            if (book == null)
-                return "Book not found.";
-
-            // 3. Перевірка існування читача
             var reader = readers.FirstOrDefault(r => r.Id == readerId);
-            if (reader == null)
-                return "Reader not found.";
+            if (book == null || reader == null) return false;
 
-            // Якщо всі перевірки пройдені, повертаємо книгу
             book.AvailableCopies++;
             reader.BorrowedBooks.Remove(isbn);
             activeLoans.Remove(loan);
 
-            return "Book returned successfully.";
+            return true;
         }
+
 
 
     }
