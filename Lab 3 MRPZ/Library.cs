@@ -12,7 +12,8 @@ namespace LibraryManegmentTest
 
         public void AddReader(Reader reader)
         {
-            
+            if (readers.Any(r => r.ReaderId == reader.ReaderId))
+                throw new InvalidOperationException("Reader with the same ID already exists.");
             readers.Add(reader);
         }
 
