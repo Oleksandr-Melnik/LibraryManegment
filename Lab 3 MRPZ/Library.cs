@@ -19,11 +19,13 @@ namespace LibraryManegmentTest
 
         public void RemoveReader(int readerId)
         {
-            var reader = readers.FindAll(r => r.ReaderId == readerId).FirstOrDefault();
+            var reader = readers.FirstOrDefault(r => r.ReaderId == readerId);
             if (reader == null)
                 throw new InvalidOperationException("Reader not found.");
 
-            
+            if (reader.BorrowedBooks.Any())
+                throw new InvalidOperationException("Cannot remove reader with active loans.");
+
 
             readers.Remove(reader);
         }
