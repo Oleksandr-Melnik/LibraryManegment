@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "D:\\vs\\laba_17_3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2964F45D-74D3-4473-A241-202CE244CB58}|LibrarySystem_17\\LibraryManagementSystem.csproj|d:\\vs\\laba_17_3\\librarysystem_17\\library.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2964F45D-74D3-4473-A241-202CE244CB58}|LibrarySystem_17\\LibraryManagementSystem.csproj|solutionrelative:librarysystem_17\\library.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{61A0A5B5-2CC6-4005-94C1-C181CEDEFE73}|LibraryService\\LibraryService.csproj|d:\\vs\\laba_17_3\\libraryservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61A0A5B5-2CC6-4005-94C1-C181CEDEFE73}|LibraryService\\LibraryService.csproj|solutionrelative:libraryservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AE7DD000-24E7-4091-988E-CBDCDA9C36BC}|LibrarySystem_17.Tests\\LibraryManagementSystem.Tests.csproj|d:\\vs\\laba_17_3\\librarysystem_17.tests\\librarytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AE7DD000-24E7-4091-988E-CBDCDA9C36BC}|LibrarySystem_17.Tests\\LibraryManagementSystem.Tests.csproj|solutionrelative:librarysystem_17.tests\\librarytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE7DD000-24E7-4091-988E-CBDCDA9C36BC}|LibrarySystem_17.Tests\\LibraryManagementSystem.Tests.csproj|d:\\vs\\laba_17_3\\librarysystem_17.tests\\librarymanagementsystem.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{AE7DD000-24E7-4091-988E-CBDCDA9C36BC}|LibrarySystem_17.Tests\\LibraryManagementSystem.Tests.csproj|solutionrelative:librarysystem_17.tests\\librarymanagementsystem.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2964F45D-74D3-4473-A241-202CE244CB58}|LibrarySystem_17\\LibraryManagementSystem.csproj|D:\\vs\\laba_17_3\\librarysystem_17\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2964F45D-74D3-4473-A241-202CE244CB58}|LibrarySystem_17\\LibraryManagementSystem.csproj|solutionrelative:librarysystem_17\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2964F45D-74D3-4473-A241-202CE244CB58}|LibrarySystem_17\\LibraryManagementSystem.csproj|D:\\vs\\laba_17_3\\librarysystem_17\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2964F45D-74D3-4473-A241-202CE244CB58}|LibrarySystem_17\\LibraryManagementSystem.csproj|solutionrelative:librarysystem_17\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2964F45D-74D3-4473-A241-202CE244CB58}|LibrarySystem_17\\LibraryManagementSystem.csproj|D:\\vs\\laba_17_3\\librarysystem_17\\models\\loan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,8 +23,24 @@
       "RelativeMoniker": "D:0:0:{2964F45D-74D3-4473-A241-202CE244CB58}|LibrarySystem_17\\LibraryManagementSystem.csproj|solutionrelative:librarysystem_17\\models\\reader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2964F45D-74D3-4473-A241-202CE244CB58}|LibrarySystem_17\\LibraryManagementSystem.csproj|D:\\vs\\laba_17_3\\librarysystem_17\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2964F45D-74D3-4473-A241-202CE244CB58}|LibrarySystem_17\\LibraryManagementSystem.csproj|solutionrelative:librarysystem_17\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2964F45D-74D3-4473-A241-202CE244CB58}|LibrarySystem_17\\LibraryManagementSystem.csproj|D:\\vs\\laba_17_3\\librarysystem_17\\library.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2964F45D-74D3-4473-A241-202CE244CB58}|LibrarySystem_17\\LibraryManagementSystem.csproj|solutionrelative:librarysystem_17\\library.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{173719CA-A304-49A9-ABD6-3318D18C39EC}|ClassManagementLibrary\\ClassManagementLibrary.csproj|d:\\vs\\laba_17_3\\classmanagementlibrary\\library.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{173719CA-A304-49A9-ABD6-3318D18C39EC}|ClassManagementLibrary\\ClassManagementLibrary.csproj|solutionrelative:classmanagementlibrary\\library.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61A0A5B5-2CC6-4005-94C1-C181CEDEFE73}|LibraryService\\LibraryService.csproj|d:\\vs\\laba_17_3\\libraryservice\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{61A0A5B5-2CC6-4005-94C1-C181CEDEFE73}|LibraryService\\LibraryService.csproj|solutionrelative:libraryservice\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE7DD000-24E7-4091-988E-CBDCDA9C36BC}|LibrarySystem_17.Tests\\LibraryManagementSystem.Tests.csproj|d:\\vs\\laba_17_3\\librarysystem_17.tests\\librarymanagementsystem.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{AE7DD000-24E7-4091-988E-CBDCDA9C36BC}|LibrarySystem_17.Tests\\LibraryManagementSystem.Tests.csproj|solutionrelative:librarysystem_17.tests\\librarymanagementsystem.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2964F45D-74D3-4473-A241-202CE244CB58}|LibrarySystem_17\\LibraryManagementSystem.csproj|D:\\vs\\laba_17_3\\librarysystem_17\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2964F45D-74D3-4473-A241-202CE244CB58}|LibrarySystem_17\\LibraryManagementSystem.csproj|solutionrelative:librarysystem_17\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,7 +58,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
+              "Title": "Library.cs",
+              "DocumentMoniker": "D:\\vs\\laba_17_3\\ClassManagementLibrary\\Library.cs",
+              "RelativeDocumentMoniker": "ClassManagementLibrary\\Library.cs",
+              "ToolTip": "D:\\vs\\laba_17_3\\ClassManagementLibrary\\Library.cs",
+              "RelativeToolTip": "ClassManagementLibrary\\Library.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAYwEQAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T16:30:46.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\vs\\laba_17_3\\LibraryService\\Program.cs",
+              "RelativeDocumentMoniker": "LibraryService\\Program.cs",
+              "ToolTip": "D:\\vs\\laba_17_3\\LibraryService\\Program.cs",
+              "RelativeToolTip": "LibraryService\\Program.cs",
+              "ViewState": "AgIAAJoAAAAAAAAAAAAqwN4AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T16:18:40.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "AssemblyInfo.cs",
               "DocumentMoniker": "D:\\vs\\laba_17_3\\LibrarySystem_17\\Properties\\AssemblyInfo.cs",
               "RelativeDocumentMoniker": "LibrarySystem_17\\Properties\\AssemblyInfo.cs",
@@ -64,26 +102,27 @@
               "RelativeDocumentMoniker": "LibrarySystem_17.Tests\\LibraryTests.cs",
               "ToolTip": "D:\\vs\\laba_17_3\\LibrarySystem_17.Tests\\LibraryTests.cs",
               "RelativeToolTip": "LibrarySystem_17.Tests\\LibraryTests.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAA3wC4AAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T16:01:08.194Z"
+              "WhenOpened": "2024-11-29T16:01:08.194Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "Library.cs",
               "DocumentMoniker": "D:\\vs\\laba_17_3\\LibrarySystem_17\\Library.cs",
               "RelativeDocumentMoniker": "LibrarySystem_17\\Library.cs",
               "ToolTip": "D:\\vs\\laba_17_3\\LibrarySystem_17\\Library.cs",
               "RelativeToolTip": "LibrarySystem_17\\Library.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAAwEkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-29T15:58:32.74Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "LibraryManagementSystem.Tests.csproj",
               "DocumentMoniker": "D:\\vs\\laba_17_3\\LibrarySystem_17.Tests\\LibraryManagementSystem.Tests.csproj",
               "RelativeDocumentMoniker": "LibrarySystem_17.Tests\\LibraryManagementSystem.Tests.csproj",
@@ -95,7 +134,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Loan.cs",
               "DocumentMoniker": "D:\\vs\\laba_17_3\\LibrarySystem_17\\Models\\Loan.cs",
               "RelativeDocumentMoniker": "LibrarySystem_17\\Models\\Loan.cs",
@@ -103,11 +142,12 @@
               "RelativeToolTip": "LibrarySystem_17\\Models\\Loan.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T15:36:06.014Z"
+              "WhenOpened": "2024-11-29T15:36:06.014Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "Book.cs",
               "DocumentMoniker": "D:\\vs\\laba_17_3\\LibrarySystem_17\\Models\\Book.cs",
               "RelativeDocumentMoniker": "LibrarySystem_17\\Models\\Book.cs",
@@ -115,19 +155,33 @@
               "RelativeToolTip": "LibrarySystem_17\\Models\\Book.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T15:35:24.598Z"
+              "WhenOpened": "2024-11-29T15:35:24.598Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "Reader.cs",
               "DocumentMoniker": "D:\\vs\\laba_17_3\\LibrarySystem_17\\Models\\Reader.cs",
               "RelativeDocumentMoniker": "LibrarySystem_17\\Models\\Reader.cs",
               "ToolTip": "D:\\vs\\laba_17_3\\LibrarySystem_17\\Models\\Reader.cs",
               "RelativeToolTip": "LibrarySystem_17\\Models\\Reader.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T15:31:57.726Z"
+              "WhenOpened": "2024-11-29T15:31:57.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "D:\\vs\\laba_17_3\\LibraryService\\Dockerfile",
+              "RelativeDocumentMoniker": "LibraryService\\Dockerfile",
+              "ToolTip": "D:\\vs\\laba_17_3\\LibraryService\\Dockerfile",
+              "RelativeToolTip": "LibraryService\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-12-26T17:08:06.9Z"
             }
           ]
         },
