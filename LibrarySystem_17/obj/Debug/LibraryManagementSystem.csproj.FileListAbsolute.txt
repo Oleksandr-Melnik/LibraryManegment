@@ -1,0 +1,12 @@
+D:\vs\laba_17_3\LibrarySystem_17\LibrarySystem_17\bin\Debug\LibrarySystem_17.dll
+D:\vs\laba_17_3\LibrarySystem_17\LibrarySystem_17\bin\Debug\LibrarySystem_17.pdb
+D:\vs\laba_17_3\LibrarySystem_17\LibrarySystem_17\obj\Debug\LibraryManagementSystem.csproj.AssemblyReference.cache
+D:\vs\laba_17_3\LibrarySystem_17\LibrarySystem_17\obj\Debug\LibraryManagementSystem.csproj.CoreCompileInputs.cache
+D:\vs\laba_17_3\LibrarySystem_17\LibrarySystem_17\obj\Debug\LibrarySystem_17.dll
+D:\vs\laba_17_3\LibrarySystem_17\LibrarySystem_17\obj\Debug\LibrarySystem_17.pdb
+D:\vs\laba_17_3\LibrarySystem_17\bin\Debug\LibrarySystem_17.dll
+D:\vs\laba_17_3\LibrarySystem_17\bin\Debug\LibrarySystem_17.pdb
+D:\vs\laba_17_3\LibrarySystem_17\obj\Debug\LibraryManagementSystem.csproj.AssemblyReference.cache
+D:\vs\laba_17_3\LibrarySystem_17\obj\Debug\LibraryManagementSystem.csproj.CoreCompileInputs.cache
+D:\vs\laba_17_3\LibrarySystem_17\obj\Debug\LibrarySystem_17.dll
+D:\vs\laba_17_3\LibrarySystem_17\obj\Debug\LibrarySystem_17.pdb
